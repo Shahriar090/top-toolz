@@ -10,7 +10,7 @@ const Navbar = () => {
     setOpenMobileDrawer(!openMobileDrawer);
   };
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg ">
+    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg">
       <div className="container px-4 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
           <div className="logo flex items-center flex-shrink-0">

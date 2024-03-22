@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
       <Navbar />
+
       <Banner />
     </div>
   );
