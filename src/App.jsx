@@ -1,7 +1,11 @@
+import Banner from "./components/Banner/Banner";
+import Navbar from "./components/Navbar/Navbar";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="max-w-screen-xl mx-auto">
+      <Navbar />
+      <Banner />
     </div>
   );
 };
