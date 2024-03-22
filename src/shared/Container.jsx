@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const Container = ({ children }) => {
-  return <div className="px-4 mt-8 md:mt-28">{children}</div>;
+  return <div className="px-4 mt-14 md:mt-28">{children}</div>;
 };
 
 Container.propTypes = {

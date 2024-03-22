@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "featureIcon": "icon1.svg",
+    "featureHead": "Drag and Drop",
+    "featureDes": "Effortlessly organize your files and folders by dragging and dropping them into the desired location. No more tedious manual sorting!"
+  },
+  {
+    "id": 2,
+    "featureIcon": "icon2.svg",
+    "featureHead": "Real-time Collaboration",
+    "featureDes": "Work together seamlessly with your team members in real-time. Share ideas, make edits, and see changes instantly."
+  },
+
+  {
+    "id": 4,
+    "featureIcon": "icon4.svg",
+    "featureHead": "Powerful Search",
+    "featureDes": "Find what you need quickly and easily with our powerful search feature. Instantly locate files, documents, and conversations."
+  },
+
+  {
+    "id": 6,
+    "featureIcon": "icon6.svg",
+    "featureHead": "Version Control",
+    "featureDes": "Keep track of changes and revisions with built-in version control. Easily revert to previous versions and collaborate with confidence."
+  },
+  {
+    "id": 7,
+    "featureIcon": "icon7.svg",
+    "featureHead": "Mobile Accessibility",
+    "featureDes": "Access your workspace on the go with our mobile app. Stay productive anytime, anywhere, and never miss a beat."
+  },
+  {
+    "id": 8,
+    "featureIcon": "icon8.svg",
+    "featureHead": "Advanced Security",
+    "featureDes": "Protect your data with advanced security features. Rest easy knowing that your information is safe and secure."
+  },
+  {
+    "id": 9,
+    "featureIcon": "icon9.svg",
+    "featureHead": "Task Management",
+    "featureDes": "Stay organized and on track with our intuitive task management tools. Assign tasks, set deadlines, and track progress effortlessly."
+  },
+  {
+    "id": 10,
+    "featureIcon": "icon10.svg",
+    "featureHead": "Analytics and Insights",
+    "featureDes": "Gain valuable insights into your workflow and productivity with comprehensive analytics. Make informed decisions and optimize your processes."
+  }
+]

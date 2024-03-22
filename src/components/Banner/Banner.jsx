@@ -6,11 +6,11 @@ import vid2 from "../../assets/Video/vid-2.mp4";
 const Banner = () => {
   return (
     <Container>
-      <div className="h-screen">
+      <div className="h-full md:max-h-screen">
         <div className="banner-texts space-y-7">
-          <h1 className="text-3xl sm:text-5xl lg:text-7xl text-gray-200 text-center tracking-wide font-bold">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl text-gray-300 text-center tracking-tight font-bold">
             Empower Your Projects With{" "}
-            <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+            <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
               Top Toolz
             </span>
           </h1>
@@ -19,7 +19,7 @@ const Banner = () => {
             your projects. Join us and unlock your projects potential today.
           </p>
           <div className="flex flex-col md:flex-row gap-5 justify-center">
-            <button className="px-8 py-2 rounded-md text-gray-200 cursor-pointer bg-gradient-to-r from-orange-500 to-orange-700">
+            <button className="px-8 py-2 rounded-md text-gray-200 cursor-pointer bg-gradient-to-r from-orange-500 to-orange-800">
               Start For Free
             </button>
             <button className="px-8 py-2 rounded-md text-gray-200 cursor-pointer border-2 border-gray-200 hover:bg-gradient-to-r from-orange-500 to-orange-700">

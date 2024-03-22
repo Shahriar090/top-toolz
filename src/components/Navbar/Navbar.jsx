@@ -10,18 +10,24 @@ const Navbar = () => {
     setOpenMobileDrawer(!openMobileDrawer);
   };
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg">
+    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg shadow-sm shadow-neutral-800">
       <div className="container px-4 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
           <div className="logo flex items-center flex-shrink-0">
-            <a href="#" className="text-2xl text-gray-200">
-              Top Toolz
+            <a href="#" className="text-2xl text-gray-300 font-bold">
+              Top{" "}
+              <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+                Toolz
+              </span>
             </a>
           </div>
           <div className="nav-items">
             <ul className="hidden lg:flex ml-14 space-x-12">
               {navItems.map((item, index) => (
-                <li key={index} className="text-gray-200">
+                <li
+                  key={index}
+                  className="text-gray-200 font-semibold hover:text-orange-600"
+                >
                   <a href={item.href}>{item.label}</a>
                 </li>
               ))}
