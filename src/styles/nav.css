@@ -1,0 +1,29 @@
+/* @layer base {
+  .nav-container {
+    @apply sticky top-0 z-50 py-3 backdrop-blur-lg shadow-sm shadow-neutral-800 px-4;
+  }
+  .nav-item-container {
+    @apply flex justify-between items-center;
+  }
+  .nav-logo {
+    @apply logo flex items-center flex-shrink-0;
+  }
+  .logo-top {
+    @apply text-2xl text-gray-300 font-bold;
+  }
+  .logo-toolz {
+    @apply bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text;
+  }
+  .nav-lg-ul-items {
+    @apply hidden lg:flex ml-14 space-x-12;
+  }
+  .nav-li {
+    @apply text-gray-300 font-semibold hover:text-orange-600;
+  }
+  .sign-in-btn {
+    @apply px-8 py-2 rounded-md text-gray-200 cursor-pointer bg-gradient-to-r from-orange-500 to-orange-700;
+  }
+  .sm-drawer-side {
+    @apply fixed right-0 top-16 z-20 w-full p-12 flex flex-col gap-6 items-center justify-center lg:hidden bg-neutral-900 text-gray-200;
+  }
+} */

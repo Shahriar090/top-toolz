@@ -47,7 +47,7 @@ const Features = () => {
           ) : (
             features.map((feature) => (
               <div
-                className="border-2 border-neutral-900 p-5 rounded-sm shadow-sm cursor-pointer hover:border-orange-500 transition-all duration-300"
+                className="border-2 border-neutral-900 p-5 rounded-sm shadow-sm cursor-pointer hover:border-orange-600 transition-all duration-300"
                 key={feature.id}
               >
                 <div className="relative text-gray-200 space-y-3">
